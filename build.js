@@ -24,8 +24,8 @@ async function buildCV() {
 
     // Copy profile image to dist
     const assetsDir = path.join(__dirname, 'assets');
-    const profileSrc = path.join(assetsDir, 'cv_image.png');
-    const profileDest = path.join(distDir, 'cv_image.png');
+    const profileSrc = path.join(assetsDir, 'cv_image.jpeg');
+    const profileDest = path.join(distDir, 'cv_image.jpeg');
     
     if (fs.existsSync(profileSrc)) {
         fs.copyFileSync(profileSrc, profileDest);

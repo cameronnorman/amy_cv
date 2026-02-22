@@ -1,0 +1,16 @@
+{
+  "name": "new_cv",
+  "version": "1.0.0",
+  "description": "Automated CV generation system",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": ["cv", "resume", "markdown", "pdf"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^11.1.1",
+    "puppeteer": "^23.11.0"
+  }
+}

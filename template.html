@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Cameron Norman</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem 1rem;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding: 3rem;
+            padding-bottom: 1.5rem;
+        }
+
+        .profile-image {
+            flex-shrink: 0;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 4px solid #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .header-content {
+            flex: 1;
+        }
+
+        .content {
+            padding: 0 3rem 3rem 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            color: #667eea;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #667eea;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            color: #2c3e50;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        em {
+            color: #666;
+            font-style: italic;
+        }
+
+        ul {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            margin: 1.5rem 0;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .print-button {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .print-button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(102, 126, 234, 0.5);
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+                max-width: 100%;
+            }
+
+            .print-button {
+                display: none;
+            }
+
+            .header {
+                padding: 0 0 1rem 0;
+                gap: 1.5rem;
+            }
+
+            .profile-image {
+                width: 120px;
+                height: 120px;
+                border-width: 3px;
+            }
+
+            .content {
+                padding: 0;
+            }
+
+            /* Enhanced PDF styling for better visual appeal */
+            h1 {
+                color: #667eea;
+                font-size: 2.2rem;
+                margin-bottom: 0.3rem;
+                padding-bottom: 0.5rem;
+                border-bottom: 4px solid #667eea;
+                page-break-after: avoid;
+            }
+
+            h2 {
+                color: #667eea;
+                font-size: 1.4rem;
+                margin-top: 1.5rem;
+                margin-bottom: 0.8rem;
+                padding-bottom: 0.3rem;
+                border-bottom: 2px solid #667eea;
+                page-break-after: avoid;
+            }
+
+            h3 {
+                color: #2c3e50;
+                font-size: 1.1rem;
+                margin-top: 1rem;
+                margin-bottom: 0.5rem;
+                page-break-after: avoid;
+            }
+
+            h4 {
+                font-size: 0.95rem;
+                margin-top: 0.8rem;
+                page-break-after: avoid;
+            }
+
+            /* Prevent awkward page breaks */
+            h1, h2, h3, h4 {
+                page-break-inside: avoid;
+            }
+
+            p {
+                margin-bottom: 0.8rem;
+                line-height: 1.6;
+                orphans: 3;
+                widows: 3;
+            }
+
+            ul {
+                margin-left: 1.5rem;
+                margin-bottom: 0.8rem;
+            }
+
+            li {
+                margin-bottom: 0.4rem;
+                line-height: 1.6;
+                page-break-inside: avoid;
+            }
+
+            /* Keep job entries together when possible */
+            h4 + p, h3 + p, h3 + em {
+                page-break-before: avoid;
+            }
+
+            /* Improve strong/bold text visibility in PDF */
+            strong {
+                color: #2c3e50;
+                font-weight: 600;
+            }
+
+            /* Better link styling for PDF */
+            a {
+                color: #667eea;
+                text-decoration: none;
+            }
+
+            /* Display URLs for printed links */
+            a[href^="http"]:after {
+                content: "";
+            }
+
+            /* Subtle visual separator */
+            hr {
+                border: none;
+                border-top: 1px solid #ddd;
+                margin: 1.2rem 0;
+            }
+
+            /* Optimize spacing for print */
+            .content > *:first-child {
+                margin-top: 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+                padding: 1.5rem;
+                padding-bottom: 1rem;
+            }
+
+            .profile-image {
+                width: 120px;
+                height: 120px;
+            }
+
+            .content {
+                padding: 0 1.5rem 1.5rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            .print-button {
+                bottom: 1rem;
+                right: 1rem;
+                padding: 0.75rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-image">
+                <img src="cv_image.png" alt="Profile Picture">
+            </div>
+            <div class="header-content" id="header-content">
+                {{HEADER_CONTENT}}
+            </div>
+        </div>
+        <div class="content" id="cv-content">
+            {{CONTENT}}
+        </div>
+    </div>
+    <button class="print-button" onclick="window.print()">🖨️ Print / Save as PDF</button>
+</body>
+</html>

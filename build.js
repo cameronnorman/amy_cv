@@ -11,45 +11,31 @@ marked.setOptions({
 
 // Configuration constants
 const MAX_HEADER_LINES = 6;
-
-async function buildCV() {
-    console.log('🚀 Starting CV build process...');
-
-    // Create dist directory if it doesn't exist
-    const distDir = path.join(__dirname, 'dist');
-    if (!fs.existsSync(distDir)) {
-        fs.mkdirSync(distDir);
-        console.log('✅ Created dist directory');
+const CV_VARIANTS = [
+    {
+        markdownFile: 'CV.md',
+        outputSubdir: '',
+        htmlFile: 'index.html',
+        pdfFile: 'CV.pdf',
+        optional: false,
+        label: 'English'
+    },
+    {
+        markdownFile: 'CV_de.md',
+        outputSubdir: 'de',
+        htmlFile: 'index.html',
+        pdfFile: 'CV_de.pdf',
+        optional: true,
+        label: 'German'
     }
+];
 
-    // Copy profile image to dist
-    const assetsDir = path.join(__dirname, 'assets');
-    const profileSrc = path.join(assetsDir, 'cv_image.jpeg');
-    const profileDest = path.join(distDir, 'cv_image.jpeg');
-    
-    if (fs.existsSync(profileSrc)) {
-        fs.copyFileSync(profileSrc, profileDest);
-        console.log('✅ Copied profile image');
-    } else {
-        console.log('⚠️  Profile image not found, skipping...');
-    }
-
-    // Read CV.md
-    const cvPath = path.join(__dirname, 'CV.md');
-    if (!fs.existsSync(cvPath)) {
-        console.error('❌ Error: CV.md not found!');
-        process.exit(1);
-    }
-
-    const cvMarkdown = fs.readFileSync(cvPath, 'utf-8');
-    console.log('✅ Read CV.md');
-
-    // Split content to extract header (name and title)
+function extractHeaderAndContent(cvMarkdown) {
     const lines = cvMarkdown.split('\n');
     let headerMarkdown = '';
     let contentMarkdown = '';
     let headerLineCount = 0;
-    
+
     // Extract first few lines for header (name, title, contact info)
     for (let i = 0; i < lines.length && headerLineCount < MAX_HEADER_LINES; i++) {
         const line = lines[i].trim();
@@ -69,70 +55,138 @@ async function buildCV() {
         contentMarkdown = lines.slice(MAX_HEADER_LINES).join('\n');
     }
 
+    return { headerMarkdown, contentMarkdown };
+}
+
+function ensureDirectory(directoryPath) {
+    if (!fs.existsSync(directoryPath)) {
+        fs.mkdirSync(directoryPath, { recursive: true });
+    }
+}
+
+function copyProfileImage(targetDirectory) {
+    const assetsDir = path.join(__dirname, 'assets');
+    const profileSrc = path.join(assetsDir, 'cv_image.jpeg');
+    const profileDest = path.join(targetDirectory, 'cv_image.jpeg');
+
+    if (!fs.existsSync(profileSrc)) {
+        console.log('⚠️  Profile image not found, skipping image copy...');
+        return;
+    }
+
+    fs.copyFileSync(profileSrc, profileDest);
+    console.log(`✅ Copied profile image to ${targetDirectory}`);
+}
+
+async function generatePdf(browser, indexPath, pdfPath) {
+    const page = await browser.newPage();
+    await page.goto(`file://${indexPath}`, {
+        waitUntil: 'networkidle0'
+    });
+
+    await page.pdf({
+        path: pdfPath,
+        format: 'A4',
+        printBackground: true,
+        preferCSSPageSize: false,
+        displayHeaderFooter: false,
+        margin: {
+            top: '15mm',
+            right: '15mm',
+            bottom: '15mm',
+            left: '15mm'
+        }
+    });
+
+    await page.close();
+}
+
+async function buildVariant(template, distDir, browser, variant) {
+    const cvPath = path.join(__dirname, variant.markdownFile);
+    if (!fs.existsSync(cvPath)) {
+        if (variant.optional) {
+            console.log(`ℹ️  ${variant.markdownFile} not found, skipping ${variant.label} build`);
+            return;
+        }
+
+        console.error(`❌ Error: ${variant.markdownFile} not found!`);
+        process.exit(1);
+    }
+
+    const variantDir = path.join(distDir, variant.outputSubdir);
+    ensureDirectory(variantDir);
+    copyProfileImage(variantDir);
+
+    const cvMarkdown = fs.readFileSync(cvPath, 'utf-8');
+    console.log(`✅ Read ${variant.markdownFile}`);
+
+    const { headerMarkdown, contentMarkdown } = extractHeaderAndContent(cvMarkdown);
+
     // Convert markdown to HTML
     const headerHtml = marked(headerMarkdown);
     const cvHtml = marked(contentMarkdown);
-    console.log('✅ Converted markdown to HTML');
+    console.log(`✅ Converted ${variant.markdownFile} to HTML`);
 
-    // Read template
+    // Inject CV content into template
+    let finalHtml = template.replace('{{CONTENT}}', cvHtml);
+    finalHtml = finalHtml.replace('{{HEADER_CONTENT}}', headerHtml);
+
+    const indexPath = path.join(variantDir, variant.htmlFile);
+    fs.writeFileSync(indexPath, finalHtml);
+    console.log(`✅ Generated ${variant.outputSubdir ? `${variant.outputSubdir}/` : ''}${variant.htmlFile}`);
+
+    if (!browser) {
+        console.log(`⚠️  Skipping ${variant.pdfFile} generation (browser unavailable)`);
+        return;
+    }
+
+    try {
+        const pdfPath = path.join(variantDir, variant.pdfFile);
+        await generatePdf(browser, indexPath, pdfPath);
+        console.log(`✅ Generated ${variant.outputSubdir ? `${variant.outputSubdir}/` : ''}${variant.pdfFile}`);
+    } catch (error) {
+        console.error(`❌ Error generating ${variant.pdfFile}:`, error.message);
+    }
+}
+
+async function buildCV() {
+    console.log('🚀 Starting CV build process...');
+
+    const distDir = path.join(__dirname, 'dist');
+    ensureDirectory(distDir);
+
     const templatePath = path.join(__dirname, 'template.html');
     const template = fs.readFileSync(templatePath, 'utf-8');
     console.log('✅ Read HTML template');
 
-    // Inject CV content into template
-    let finalHtml = template.replace('{{CONTENT}}', cvHtml);
-    // Inject header content
-    finalHtml = finalHtml.replace('{{HEADER_CONTENT}}', headerHtml);
-
-    // Write index.html
-    const indexPath = path.join(distDir, 'index.html');
-    fs.writeFileSync(indexPath, finalHtml);
-    console.log('✅ Generated index.html');
-
-    // Generate PDF
-    console.log('📄 Generating PDF...');
+    let browser = null;
     try {
         const puppeteerArgs = ['--no-sandbox', '--disable-setuid-sandbox'];
-        
-        const browser = await puppeteer.launch({
+        browser = await puppeteer.launch({
             headless: 'new',
             executablePath: '/usr/bin/google-chrome',
             args: puppeteerArgs
         });
-        const page = await browser.newPage();
-        
-        // Load the HTML file
-        await page.goto(`file://${indexPath}`, {
-            waitUntil: 'networkidle0'
-        });
-
-        // Generate PDF with optimized settings for better visual appeal
-        const pdfPath = path.join(distDir, 'CV.pdf');
-        await page.pdf({
-            path: pdfPath,
-            format: 'A4',
-            printBackground: true,
-            preferCSSPageSize: false,
-            displayHeaderFooter: false,
-            margin: {
-                top: '15mm',
-                right: '15mm',
-                bottom: '15mm',
-                left: '15mm'
-            }
-        });
-
-        await browser.close();
-        console.log('✅ Generated CV.pdf');
+        console.log('✅ Browser launched for PDF generation');
     } catch (error) {
-        console.error('❌ Error generating PDF:', error.message);
-        console.log('⚠️  Continuing without PDF generation...');
+        console.error('❌ Error launching browser for PDF generation:', error.message);
+        console.log('⚠️  Continuing with HTML generation only...');
+    }
+
+    for (const variant of CV_VARIANTS) {
+        await buildVariant(template, distDir, browser, variant);
+    }
+
+    if (browser) {
+        await browser.close();
     }
 
     console.log('🎉 Build complete!');
     console.log(`📁 Output directory: ${distDir}`);
     console.log('   - index.html (web version)');
     console.log('   - CV.pdf (printable version)');
+    console.log('   - de/index.html (German web version, if CV_de.md exists)');
+    console.log('   - de/CV_de.pdf (German PDF version, if CV_de.md exists)');
 }
 
 // Run the build

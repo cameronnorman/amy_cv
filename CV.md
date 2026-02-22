@@ -1,4 +1,4 @@
-# Amy Amelia Mays
+# Amy Amelia Norman
 **Dedicated mother in pursuit of a new purpose**
 
 ---

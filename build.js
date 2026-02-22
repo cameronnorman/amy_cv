@@ -13,20 +13,20 @@ marked.setOptions({
 const MAX_HEADER_LINES = 6;
 const CV_VARIANTS = [
     {
-        markdownFile: 'CV.md',
+        markdownFile: 'CV_de.md',
         outputSubdir: '',
+        htmlFile: 'index.html',
+        pdfFile: 'CV_de.pdf',
+        optional: false,
+        label: 'German'
+    },
+    {
+        markdownFile: 'CV.md',
+        outputSubdir: 'en',
         htmlFile: 'index.html',
         pdfFile: 'CV.pdf',
         optional: false,
         label: 'English'
-    },
-    {
-        markdownFile: 'CV_de.md',
-        outputSubdir: 'de',
-        htmlFile: 'index.html',
-        pdfFile: 'CV_de.pdf',
-        optional: true,
-        label: 'German'
     }
 ];
 
@@ -183,10 +183,10 @@ async function buildCV() {
 
     console.log('🎉 Build complete!');
     console.log(`📁 Output directory: ${distDir}`);
-    console.log('   - index.html (web version)');
-    console.log('   - CV.pdf (printable version)');
-    console.log('   - de/index.html (German web version, if CV_de.md exists)');
-    console.log('   - de/CV_de.pdf (German PDF version, if CV_de.md exists)');
+    console.log('   - index.html (German web version)');
+    console.log('   - CV_de.pdf (German printable version)');
+    console.log('   - en/index.html (English web version)');
+    console.log('   - en/CV.pdf (English printable version)');
 }
 
 // Run the build

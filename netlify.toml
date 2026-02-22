@@ -3,8 +3,13 @@
   publish = "dist"
 
 [[redirects]]
+  from = "/en"
+  to = "/en/index.html"
+  status = 200
+
+[[redirects]]
   from = "/de"
-  to = "/de/index.html"
+  to = "/index.html"
   status = 200
 
 [[redirects]]

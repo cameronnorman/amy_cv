@@ -21,7 +21,6 @@ Ich bin eine freundliche und fleißige Absolventin der Gesundheitswissenschaften
 
 **Vollzeit-Mutter** | *Jork, Deutschland* | **Aug. 2023 – Heute**
 * Betreuung meiner Tochter und Organisation unseres Haushalts.
-* Planung und Durchführung unseres Umzugs von Berlin nach Jork.
 
 **Au-pair / Haushaltshilfe** | *Berlin, Deutschland* | **Feb. 2022 – Mai 2023**
 * Betreuung eines 2-jährigen Kindes und Hilfe bei täglichen Aufgaben im Haushalt.
@@ -48,7 +47,7 @@ Ich bin eine freundliche und fleißige Absolventin der Gesundheitswissenschaften
 ---
 
 ### **SPRACHEN & KENNTNISSE**
-* **Englisch:** Muttersprache
+* **English:** Muttersprache
 * **Deutsch:** Grundkenntnisse (A1/A2) – *Ich lebe seit 7 Jahren in Deutschland und möchte meine Sprachkenntnisse durch die Arbeit gerne weiter verbessern.*
 * **Meine Stärken:** Sehr zuverlässig, gut in der Organisation und belastbar.
 

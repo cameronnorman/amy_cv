@@ -20,8 +20,7 @@ I am a friendly and hardworking person with a degree in Health Sciences and 7 ye
 ### **WORK EXPERIENCE**
 
 **Full-Time Mother** | *Jork, Germany* | **Aug 2023 – Present**
-* Caring for my daughter and managing our family home.
-* Organized our family’s move from Berlin to Jork.
+* Dedicated to caring for my daughter and managing our family home.
 
 **Au Pair / Household Help** | *Berlin, Germany* | **Feb 2022 – May 2023**
 * Looked after a 2-year-old child and helped with daily chores and routines.

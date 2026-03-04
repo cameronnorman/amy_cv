@@ -1,49 +1,46 @@
 # Amy Amelia Norman
-**Dedicated mother in pursuit of a new purpose**
+**Dedicated mother looking for a new purpose**
 
 ---
 
-### **PERSONAL DATA**
-* **Address:** Hinter den Höfen 15, Jork, 21635
+### **PERSONAL DETAILS**
+* **Address:** Hinter den Höfen 15, 21635 Jork
 * **Phone:** 0176 74768578
 * **Email:** amynorman1319@gmail.com
-* **Residency:** 7 years in Germany (Stability & Integration)
-* **Driver’s License:** Class B (German/EU License)
+* **Living in Germany:** 7 years (6 years in Berlin, now in Jork)
+* **Driver’s License:** Class B (German License)
 
 ---
 
-### **PROFESSIONAL PROFILE**
-A Health Sciences graduate and **Native English speaker** with 7 years of residency in Germany. Following the completion of my degree in Community and Health Psychology, I specialized in early childhood education, managing large groups and curriculum development. After a rewarding two-year period dedicated to raising my daughter, I am now re-entering the workforce. I am seeking a stable, purposeful, non-customer-facing role where I can apply my experience in planning, organization, and high-level responsibility to support a professional team.
+### **ABOUT ME**
+I am a friendly and hardworking person with a degree in Health Sciences and 7 years of experience living in Germany. After spending the last two years staying at home to raise my daughter, I am now ready and excited to start working again. I am looking for a simple, stable job where I can help a team behind the scenes. I am a native English speaker, a quick learner, and I take great pride in being reliable and organized.
 
 ---
 
-### **PROFESSIONAL EXPERIENCE**
+### **WORK EXPERIENCE**
 
-**Full-Time Mother & Household Coordinator** | *Jork, Germany* | **Aug 2023 – Present**
-* Managing all developmental care, scheduling, and household logistics.
-* Successfully coordinated a long-distance relocation from Berlin to Jork.
+**Full-Time Mother** | *Jork, Germany* | **Aug 2023 – Present**
+* Caring for my daughter and managing our family home.
+* Organized our family’s move from Berlin to Jork.
 
-**Au Pair / Household Support** | *Berlin, Germany* | **Feb 2022 – May 2023**
-* Managed daily routines and logistics for a private household.
-* **Key Achievement:** Maintained 100% reliability and dedication to the role until the third trimester of a complex pregnancy.
+**Au Pair / Household Help** | *Berlin, Germany* | **Feb 2022 – May 2023**
+* Looked after a 2-year-old child and helped with daily chores and routines.
+* I stayed committed to my work and the family until the final stages of my pregnancy.
 
 **Nursery School Teacher** | *South Africa* | **2018 – 2019**
-* **Lead Teacher:** Managed a classroom of 23 children (ages 2–3).
-* Developed and implemented age-appropriate coursework and educational activities.
-* Monitored and documented developmental milestones, ensuring a structured and productive learning environment.
-* *Note: Left position to relocate and immigrate to Germany.*
-
-**Promotional & Logistical Assistant** | *South Africa* | **2014**
-* Handled the preparation, assembly, and distribution of promotional materials for large-scale professional events.
+* I was the teacher for a class of 23 toddlers (ages 2 to 3).
+* I planned daily activities and lessons to help the children learn and grow.
+* I made sure the classroom was a safe and happy place for everyone.
+* *I left this job to move to Germany.*
 
 ---
 
 ### **EDUCATION**
 
-**Bachelor of Arts in Health Sciences and Social Services**
+**Bachelor of Arts (Health Sciences & Social Services)**
 *University of South Africa (UNISA)* | **Graduated 2016**
-* **Major:** Community and Health Psychology.
-* *Completed via distance learning, demonstrating exceptional self-discipline and independent task management.*
+* **Main Subjects:** Psychology and Child Development.
+* *I finished this degree through distance learning, which required a lot of focus and self-discipline.*
 
 **High School Diploma (Matric)**
 *Randpark High School, South Africa* | **2013**
@@ -52,5 +49,5 @@ A Health Sciences graduate and **Native English speaker** with 7 years of reside
 
 ### **LANGUAGES & SKILLS**
 * **English:** Native Speaker
-* **German:** A1/A2 (Basic Proficiency) – *7-year resident; motivated to grow through professional practice.*
-* **Core Competencies:** Curriculum & Task Planning, Group Management, Organizational Logistics, and High Resilience.
+* **German:** Basic (A1/A2) – *I have lived in Germany for 7 years and I am very eager to improve my language skills by working.*
+* **My Strengths:** Very reliable, good at planning and organizing, and calm under pressure.

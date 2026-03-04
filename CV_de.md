@@ -1,5 +1,5 @@
 # Amy Amelia Norman
-**Engagierte Mutter auf der Suche nach einer neuen beruflichen Herausforderung**
+**Engagierte Mutter auf der Suche nach einer neuen Aufgabe**
 
 ---
 
@@ -7,50 +7,47 @@
 * **Anschrift:** Hinter den Höfen 15, 21635 Jork
 * **Telefon:** 0176 74768578
 * **E-Mail:** amynorman1319@gmail.com
-* **Wohnhaft in Deutschland:** seit 7 Jahren (Stabilität & Integration)
-* **Führerschein:** Klasse B (EU/DE)
+* **Wohnhaft in Deutschland:** seit 7 Jahren (6 Jahre Berlin, jetzt Jork)
+* **Führerschein:** Klasse B (Deutsche Fahrerlaubnis)
 
 ---
 
-### **BERUFLICHES PROFIL**
-Absolventin der Gesundheitswissenschaften und **englische Muttersprachlerin** mit siebenjähriger Wohnerfahrung in Deutschland. Nach dem Abschluss meines Studiums in Community- und Gesundheitspsychologie spezialisierte ich mich auf die frühkindliche Bildung, die Leitung großer Gruppen und die Lehrplanentwicklung. Nach einer zweijährigen Familienphase, in der ich mich der Erziehung meiner Tochter gewidmet habe, strebe ich nun den Wiedereinstieg in das Berufsleben an. Ich suche eine stabile, sinnstiftende Tätigkeit im operativen oder administrativen Bereich (ohne direkten Kundenkontakt), in der ich meine Planungsstärke, Zuverlässigkeit und hohe Verantwortungsbereitschaft einbringen kann.
+### **ÜBER MICH**
+Ich bin eine freundliche und fleißige Absolventin der Gesundheitswissenschaften und lebe seit 7 Jahren in Deutschland. Nachdem ich die letzten zwei Jahre zu Hause verbracht habe, um meine Tochter großzuziehen, freue ich mich nun sehr auf den Wiedereinstieg in das Berufsleben. Ich suche eine einfache, stabile Tätigkeit, bei der ich ein Team tatkräftig unterstützen kann. Ich bin englische Muttersprachlerin, lerne schnell und lege großen Wert auf Zuverlässigkeit und Ordnung.
 
 ---
 
 ### **BERUFLICHER WERDEGANG**
 
-**Vollzeit-Mutter & Haushaltskoordination** | *Jork, Deutschland* | **Aug. 2023 – Heute**
-* Organisation der kindlichen Entwicklung, Terminplanung und Haushaltslogistik.
-* Erfolgreiche Koordination und Durchführung des Umzugs von Berlin nach Jork.
+**Vollzeit-Mutter** | *Jork, Deutschland* | **Aug. 2023 – Heute**
+* Betreuung meiner Tochter und Organisation unseres Haushalts.
+* Planung und Durchführung unseres Umzugs von Berlin nach Jork.
 
-**Au-pair / Unterstützung im Haushalt** | *Berlin, Deutschland* | **Feb. 2022 – Mai 2023**
-* Organisation des Alltags und der Logistik für einen Privathaushalt.
-* **Besondere Leistung:** Beweis höchster Zuverlässigkeit und Engagement bis in das dritte Trimester einer komplexen Schwangerschaft.
+**Au-pair / Haushaltshilfe** | *Berlin, Deutschland* | **Feb. 2022 – Mai 2023**
+* Betreuung eines 2-jährigen Kindes und Hilfe bei täglichen Aufgaben im Haushalt.
+* Ich habe meine Aufgaben bis kurz vor der Geburt meiner Tochter zuverlässig erfüllt.
 
-**Erzieherin / Lehrerin im Kindergarten** | *Südafrika* | **2018 – 2019**
-* **Klassenleitung:** Verantwortlich für eine Gruppe von 23 Kindern (Alter 2–3 Jahre).
-* Entwicklung und Umsetzung altersgerechter Bildungspläne und Aktivitäten.
-* Dokumentation von Entwicklungsfortschritten und Sicherstellung eines strukturierten Lernumfelds.
-* *Beendigung der Tätigkeit aufgrund der Immigration nach Deutschland.*
-
-**Assistentin für Promotion & Logistik** | *Südafrika* | **2014**
-* Vorbereitung, Zusammenstellung und Verteilung von Werbematerialien für professionelle Großveranstaltungen.
+**Erzieherin / Kindergartenlehrerin** | *Südafrika* | **2018 – 2019**
+* Leitung einer Gruppe von 23 Kleinkindern (im Alter von 2 bis 3 Jahren).
+* Planung von täglichen Aktivitäten und Kursen zur Förderung der Kinder.
+* Sicherstellung einer sicheren und strukturierten Umgebung für die Gruppe.
+* *Beendigung der Tätigkeit wegen des Umzugs nach Deutschland.*
 
 ---
 
 ### **AUSBILDUNG**
 
-**Bachelor of Arts: Health Sciences and Social Services**
+**Bachelor of Arts (Gesundheitswissenschaften & Soziale Dienste)**
 *University of South Africa (UNISA)* | **Abschluss 2016**
-* **Schwerpunkt:** Community and Health Psychology.
-* *Das Fernstudium erforderte ein Höchstmaß an Selbstdisziplin und eigenverantwortlichem Zeitmanagement.*
+* **Schwerpunkte:** Psychologie und Kindesentwicklung.
+* *Das Fernstudium habe ich mit viel Selbstdisziplin und Eigeninitiative abgeschlossen.*
 
-**High School Diploma (Matric)**
+**Schulabschluss (Matric/Abitur)**
 *Randpark High School, Südafrika* | **2013**
 
 ---
 
 ### **SPRACHEN & KENNTNISSE**
 * **Englisch:** Muttersprache
-* **Deutsch:** Grundkenntnisse (Niveau A1/A2) – *Seit 7 Jahren in Deutschland wohnhaft; hohe Motivation zur Vertiefung durch die berufliche Praxis.*
-* **Kernkompetenzen:** Projekt- und Aufgabenplanung, Gruppenleitung, Organisationslogistik und hohe Belastbarkeit.
+* **Deutsch:** Grundkenntnisse (A1/A2) – *Ich lebe seit 7 Jahren in Deutschland und möchte meine Sprachkenntnisse durch die Arbeit gerne weiter verbessern.*
+* **Meine Stärken:** Sehr zuverlässig, gut in der Organisation und belastbar.

@@ -51,3 +51,12 @@ Ich bin eine freundliche und fleißige Absolventin der Gesundheitswissenschaften
 * **Englisch:** Muttersprache
 * **Deutsch:** Grundkenntnisse (A1/A2) – *Ich lebe seit 7 Jahren in Deutschland und möchte meine Sprachkenntnisse durch die Arbeit gerne weiter verbessern.*
 * **Meine Stärken:** Sehr zuverlässig, gut in der Organisation und belastbar.
+
+---
+
+### **ANGESTREBTE TÄTIGKEITEN**
+Ich suche derzeit nach stabilen Positionen ohne direkten Kundenkontakt, wie zum Beispiel:
+* **Helferin im Lager oder in der Logistik** (Sortieren und Verpacken)
+* **Bürohilfe oder Datenerfassung** (Back-Office-Aufgaben)
+* **Qualitätskontrolle** (Produktion oder Landwirtschaft)
+* **Allgemeine Aushilfe** (Unterstützende Rollen in einem ruhigen Umfeld)

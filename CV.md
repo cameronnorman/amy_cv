@@ -51,3 +51,12 @@ I am a friendly and hardworking person with a degree in Health Sciences and 7 ye
 * **English:** Native Speaker
 * **German:** Basic (A1/A2) – *I have lived in Germany for 7 years and I am very eager to improve my language skills by working.*
 * **My Strengths:** Very reliable, good at planning and organizing, and calm under pressure.
+
+---
+
+### **TARGET ROLES**
+I am currently looking for stable, non-customer-facing positions such as:
+* **Warehouse or Logistics Assistant** (Sorting and Packing)
+* **Office Support or Data Entry** (Back-office tasks)
+* **Quality Control** (Production or Agricultural sectors)
+* **General Assistant** (Support roles in quiet environments)

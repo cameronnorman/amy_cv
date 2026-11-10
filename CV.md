@@ -13,13 +13,17 @@
 ---
 
 ### **ABOUT ME**
-I am a friendly and hardworking person with a degree in Health Sciences and 7 years of experience living in Germany. After spending the last two years staying at home to raise my daughter, I am now ready and excited to start working again. I am looking for a simple, stable job where I can help a team behind the scenes. I am a native English speaker, a quick learner, and I take great pride in being reliable and organized.
+I am a friendly and hardworking person with a degree in Health Sciences and 7 years of experience living in Germany. After spending time at home raising my daughter, I now work part-time as a kitchen assistant. I am a native English speaker, a quick learner, and I take great pride in being reliable and organized.
 
 ---
 
 ### **WORK EXPERIENCE**
 
-**Full-Time Mother** | *Jork, Germany* | **Aug 2023 – Present**
+**Kitchen Assistant** | *REWE Jennifer Menzel oHG, Heidbecker Weg 5, 21680 Stade* | **May 2026 – Present**
+* Prepare the salad bar every day and make sure fruit cups are ready for daily sales.
+* Currently working 25 hours per week.
+
+**Full-Time Mother** | *Jork, Germany* | **Aug 2023 – Apr 2026**
 * Dedicated to caring for my daughter and managing our family home.
 
 **Au Pair / Household Help** | *Berlin, Germany* | **Feb 2022 – May 2023**

@@ -13,13 +13,17 @@
 ---
 
 ### **ÜBER MICH**
-Ich bin eine freundliche und fleißige Absolventin der Gesundheitswissenschaften und lebe seit 7 Jahren in Deutschland. Nachdem ich die letzten zwei Jahre zu Hause verbracht habe, um meine Tochter großzuziehen, freue ich mich nun sehr auf den Wiedereinstieg in das Berufsleben. Ich suche eine einfache, stabile Tätigkeit, bei der ich ein Team tatkräftig unterstützen kann. Ich bin englische Muttersprachlerin, lerne schnell und lege großen Wert auf Zuverlässigkeit und Ordnung.
+Ich bin eine freundliche und fleißige Absolventin der Gesundheitswissenschaften und lebe seit 7 Jahren in Deutschland. Nachdem ich einige Zeit zu Hause verbracht habe, um meine Tochter großzuziehen, arbeite ich nun in Teilzeit als Küchenhilfe. Ich bin englische Muttersprachlerin, lerne schnell und lege großen Wert auf Zuverlässigkeit und Ordnung.
 
 ---
 
 ### **BERUFLICHER WERDEGANG**
 
-**Vollzeit-Mutter** | *Jork, Deutschland* | **Aug. 2023 – Heute**
+**Küchenhilfe** | *REWE Jennifer Menzel oHG, Heidbecker Weg 5, 21680 Stade* | **Mai 2026 – Heute**
+* Tägliche Vorbereitung der Salatbar und Bereitstellung aller Obstbecher für den Tagesverkauf.
+* Aktuell 25 Stunden pro Woche.
+
+**Vollzeit-Mutter** | *Jork, Deutschland* | **Aug. 2023 – Apr. 2026**
 * Betreuung meiner Tochter und Organisation unseres Haushalts.
 
 **Au-pair / Haushaltshilfe** | *Berlin, Deutschland* | **Feb. 2022 – Mai 2023**
